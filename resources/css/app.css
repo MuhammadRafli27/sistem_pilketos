@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    @apply bg-[#fff] text-[#11101d];
+}
+
+.is_invalid{
+    @apply border-2 border-red-600 ring-1 ring-red-600;
+}
+
+.feedback{
+    @apply text-sm text-red-600 italic mt-1;
+}
